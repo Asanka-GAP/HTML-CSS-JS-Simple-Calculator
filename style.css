@@ -12,7 +12,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-   background: linear-gradient(45deg, #0a0a0a, #3a4452);
+   
 }
 
 .calculator{
@@ -20,6 +20,7 @@ body{
     box-shadow: 0 0 15px #000;
     border: 2px solid rgb(116,114,114);
     border-radius: 15px;
+    background: linear-gradient(45deg, #31473A, #EDF4F2);;
 }
 
 .display input{
@@ -28,7 +29,7 @@ body{
     outline: none;
     padding: 20px;
     margin: 10px;
-    background: transparent;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
     color: #fff;
     font-size: 40px;
     text-align: right;
@@ -43,7 +44,7 @@ button{
     width: 70px;
     height: 70px;
     margin: 10px;
-    background: transparent;
+    background: linear-gradient(45deg, #0a0a0a, #3a4452);
     color: #fff;
     font-size: 22px;
     font-weight: 600;
